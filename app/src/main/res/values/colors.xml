@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorWhite">#fefefe</color>
+
+    <color name="top">#1976D2</color>
+    <color name="buttonbefore">#546E7A</color>
+    <color name="buttonafter">#2a64b0</color>
+    <color name="blank">#2a64b0</color>
+    <color name="bottom">#fefefe</color>
+    <color name="wenzi">#212121</color>
+    <color name="anniu">#F0FFFF</color>
+    <color name="anniuwenzi">#215AA9</color>
+    <color name="nicheng">#546E7A</color>
+    <color name="neirongbeijing">#81D4FA</color>
+    <color name="xiaoshuowenzi">#424242</color>
+    <color name="liebiaobeijing">#fefefe</color>
+    <color name="zuozhe">#64B5F6</color>
+
+    <color name="line">#2a64b0</color>
+
+    <color name="xiaoshuo">#fefefe</color>
+    <color name="manhua">#fefefe</color>
+    <color name="yinyue">#fefefe</color>
+    <color name="gengduo">#fefefe</color>
+    <color name="sixin">#fefefe</color>
+    <color name="pinglun">#fefefe</color>
+    <color name="zan">#fefefe</color>
+    <color name="dingyue">#fefefe</color>
+    <color name="zhanghao">#fefefe</color>
+    <color name="zuopin">#fefefe</color>
+    <color name="shoucang">#fefefe</color>
+
+
+    <color name="tishi">#fefefe</color>
+    <color name="tishiwenzi">#2196F3</color>
+
+    <color name="like">#ff3366</color>
+
+    <color name="bin1">#4081C3</color>
+    <color name="bin2">#2A64B0</color>
+    <color name="bin3">#2869B3</color>
+    <color name="bin4">#3F80C2</color>
+    <color name="bin5">#3C79B7</color>
+    <color name="bin6">#215AA9</color>
+    <color name="bin7">#245DAB</color>
+    <color name="bin8">#215AA9</color>
+    <color name="bin9">#215AA9</color>
+    <color name="bin10">#4081C3</color>
+    <color name="bin11">#387BC0</color>
+    <color name="bin12">#2F70B8</color>
+</resources>

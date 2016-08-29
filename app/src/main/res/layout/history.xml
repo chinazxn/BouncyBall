@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/blank"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/title_layout"
+        android:paddingTop="@dimen/activity_padding"
+        android:paddingBottom="@dimen/activity_padding"
+        android:background="@color/top"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/id_left_history"
+            android:onClick="onClick"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="@color/top"
+            android:textColor="@color/colorWhite"
+            android:textSize="@dimen/iconsize"
+            android:text="@string/icon_back"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:gravity="center_vertical"
+            android:layout_height="match_parent"
+            android:background="@color/top"
+            android:text="历史"
+            android:textSize="@dimen/iconsize"
+            android:textColor="@color/colorWhite"
+            android:textStyle="bold"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ListView
+            android:id="@+id/listView2"
+            android:background="@drawable/shape"
+            android:layout_margin="@dimen/activity_margin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        </ListView>
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/blank">
+    <include layout="@layout/topadmin"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_margin="@dimen/activity_margin">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:background="@drawable/shape"
+            android:layout_height= "match_parent">
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:inputType="textMultiLine"
+        android:gravity="top"
+        android:textSize="@dimen/font"
+        android:hint="输入新内容"
+        android:ems="10"
+        android:id="@+id/edit_admin_con"/>
+        </LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_gravity="bottom"
+            android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/save_admin_con"
+            android:layout_width="match_parent"
+            android:layout_margin="@dimen/activity_margin"
+            android:text="提交章节内容"
+            android:textAlignment="center"
+            android:onClick="onClick"
+            android:textSize="@dimen/button_font"
+            android:textColor="@color/anniuwenzi"
+            android:layout_height="@dimen/button_layout"
+            android:background="@drawable/shape2"/>
+        </LinearLayout>
+</LinearLayout>

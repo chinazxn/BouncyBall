@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/title_layout"
+    android:paddingTop="@dimen/activity_padding"
+    android:paddingBottom="@dimen/activity_padding"
+    android:background="@color/top"
+    android:orientation="horizontal">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent">
+        <Button
+            android:id="@+id/id_Button_introduce"
+            android:layout_width="match_parent"
+            android:onClick="onClick"
+            android:layout_height="match_parent"
+            android:textSize="@dimen/iconsize"
+            android:textColor="@color/colorWhite"
+            android:background="@color/top"
+        android:text="@string/icon_hitball" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_weight="1"
+        android:layout_height="match_parent">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:gravity="center_vertical"
+        android:text="弹力球"
+        android:textColor="@color/colorWhite"
+        android:textSize="@dimen/iconsize"
+        android:textStyle="bold"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent">
+        <Button
+            android:id="@+id/id_Button_user"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="@color/top"
+            android:textColor="@color/colorWhite"
+            android:textSize="@dimen/iconsize"
+            android:text="@string/icon_user_cycle"
+            android:onClick="onClick"
+            />
+    </LinearLayout>
+
+</LinearLayout>

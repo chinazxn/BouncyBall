@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/blank">
+    <include layout="@layout/topadmin"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:layout_margin="@dimen/activity_margin">
+        <TextView
+            android:id="@+id/text_admin_tit"
+            android:layout_marginBottom="@dimen/activity_margin"
+            android:layout_width="match_parent"
+            android:background="@drawable/shape"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textAlignment="center"
+            android:text="没有上传新标题"
+            android:textSize="@dimen/font"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/activity_margin"
+            android:gravity="center"
+            android:background="@drawable/shape">
+    <EditText
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:singleLine="true"
+        android:gravity="center"
+        android:textSize="@dimen/font"
+        android:hint="输入新标题"
+        android:ems="10"
+        android:id="@+id/edit_admin_tit" />
+        </LinearLayout>
+        <Button
+            android:id="@+id/admin_tit"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/button_layout"
+            android:onClick="onClick"
+            android:text="修改章节标题"
+            android:textAlignment="center"
+            android:textSize="@dimen/button_font"
+            android:textColor="@color/wenzi"
+            android:layout_marginBottom="@dimen/activity_margin"
+            android:background="@drawable/shape2"/>
+        <Button
+            android:id="@+id/admin_con"
+            android:layout_width="match_parent"
+            android:onClick="onClick"
+            android:text="修改章节内容"
+            android:textAlignment="center"
+            android:textSize="@dimen/button_font"
+            android:textColor="@color/wenzi"
+            android:layout_height="@dimen/button_layout"
+            android:background="@drawable/shape2"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom">
+        <Button
+            android:id="@+id/force"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/button_layout"
+            android:onClick="onClick"
+            android:textColor="@color/anniuwenzi"
+            android:textSize="@dimen/button_font"
+            android:layout_margin="@dimen/activity_margin"
+            android:background="@drawable/shape2"
+            android:text="WARNING"/>
+    </LinearLayout>
+
+</LinearLayout>
